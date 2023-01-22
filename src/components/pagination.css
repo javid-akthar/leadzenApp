@@ -1,0 +1,6 @@
+#cursorhover{
+    cursor: pointer;
+}
+#selectedPage{
+    background-color: rgb(255,100,100)
+}

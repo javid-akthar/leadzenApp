@@ -1,0 +1,22 @@
+.skillsContainer > p{
+    text-align: center;
+    word-break: break-word;
+    background-color: white;
+    margin-bottom : 0px;
+}
+
+.skillsContainer > h6{
+    text-align: center;
+    word-break: break-word;
+    background-color: white;
+}
+
+.skillsContainer{
+    max-width: 20%;
+    min-width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

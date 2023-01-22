@@ -1,0 +1,18 @@
+
+button.btn:before
+{
+    content:'Hide Profile' ;
+    display:block;
+    width:86px;
+    border-radius: 25px;
+}
+button.btn.collapsed:before
+{
+    content:'View Profile' ;
+    display:block;
+    width:86px;
+    border-radius: 25px;
+}
+.demo{
+    width:209px;
+}

@@ -23,8 +23,9 @@ function Home(props) {
         title = job.title;
         let titleArr = title.split("/");
         title = titleArr[0];
-        if (title.indexOf(temp1) >= 0)
+        if (title.indexOf(temp1) > 0){
           title = title.substring(0, title.indexOf(temp1));
+        } 
       }
       let uniqueId = new Date().getTime() + index;
       return (
